@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="../poo.css">
   </head>
   <body>
-    <div>
+    <pre>
     <?php
 
     ?>
-    </div>
+    </pre>
   </body>
 </html>
