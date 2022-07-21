@@ -44,7 +44,7 @@ class ContaBanco{
             echo "<p>Erro: conta fechada</p>";
         }else{
             $this->setSaldo($this->getSaldo()+$valor);
-            echo "<p>Depósito de $valor efetuado< na conta de ".$this->getDono()."</p>";
+            echo "<p>Depósito de $valor efetuado na conta de ".$this->getDono()."</p>";
         }
     }
 
