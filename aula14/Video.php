@@ -58,8 +58,8 @@ class Video implements AcoesVideo{
      */
     public function setAvaliacao($avaliacao): self
     {
-        $this->avaliacao = $avaliacao;
-
+        $media=($this->avaliacao+$avaliacao)/$this->views;
+        $this->avaliacao = $media;
         return $this;
     }
 
